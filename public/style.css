@@ -401,17 +401,25 @@ footer{
         font-size: 16px;
     }
 
+    .main-portfolio{
+        font-size: 12px;
+    }
+
     .about{
         height: 800px;
         line-height: 30px;
     }
 
     .project-container{
-        transform: scale(.8);
+        transform: scale(.7);
     }
-    
-    .project-container:hover{
-        transform: scale(.9);
+
+    .main-contact-container{
+        padding: 10px 15px;
+    }
+
+    .contact-info{
+        font-size: 12px;
     }
 
     footer{
