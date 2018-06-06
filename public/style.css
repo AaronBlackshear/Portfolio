@@ -413,6 +413,10 @@ footer{
     .project-container{
         transform: scale(.7);
     }
+    
+    .project-container:hover{
+        transform: scale(.7);
+    }
 
     .main-contact-container{
         padding: 10px 15px;
