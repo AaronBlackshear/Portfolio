@@ -117,7 +117,15 @@ html{
 
 .main-btn:hover{
     background-color: rgb(255, 255, 255);
-    color: #222;
+}
+
+.main-portfolio{
+    text-decoration: none;
+    color: white;
+}
+
+.main-portfolio:hover{
+    color: black;
 }
 
 /* ABOUT */
@@ -284,7 +292,7 @@ html{
 
 .contact{
     width: 100%;
-    height: 350px;
+    height: 250px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -315,10 +323,23 @@ html{
     justify-content: center;
 }
 
+.contact-resume{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 20px;
+    transition: .1s linear;
+}
+
+.contact-resume:hover{
+    transform: scale(1.1);
+}
+
 footer{
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
+
 
 @media (max-width: 950px) {
     .about{

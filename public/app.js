@@ -3,10 +3,10 @@ function scrollToAbout() {
 }
 
 function scrollToSkills() {
-  window.scrollTo({ top: 1000, behavior: "smooth" });
+  window.scrollTo({ top: 1100, behavior: "smooth" });
 }
 function scrollToProjects() {
-  window.scrollTo({ top: 1550, behavior: "smooth" });
+  window.scrollTo({ top: 1950, behavior: "smooth" });
 }
 function scrollToContact() {
   window.scrollTo({ top: 10000, behavior: "smooth" });
