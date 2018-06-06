@@ -101,7 +101,11 @@ html{
     text-align: center;
 }
 
-.main-btn{
+/* .main-btn:hover{
+    background-color: rgb(255, 255, 255);
+} */
+
+.main-portfolio{
     position: absolute;
     top: 62%;
     left: 50%;
@@ -112,20 +116,14 @@ html{
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid white;
     transition: .15s linear;
-    color: white;
-}
-
-.main-btn:hover{
-    background-color: rgb(255, 255, 255);
-}
-
-.main-portfolio{
     text-decoration: none;
     color: white;
+    font-size: 15px;
 }
 
 .main-portfolio:hover{
     color: black;
+    background-color: white;
 }
 
 /* ABOUT */
