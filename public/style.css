@@ -206,11 +206,21 @@ html{
     flex-wrap: wrap;
     justify-content: center;
     margin: 30px auto;
+    padding: 20px;
 }
 
 .skill-text{
     margin: 5px 25px;
     font-size: 24px;
+}
+
+.skills-text{
+    transition: .1s linear;
+    margin: 15px;
+}
+
+.skills-text:hover{
+    transform: scale(1.1);
 }
 
 /* PROJECTS */
