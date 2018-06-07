@@ -328,6 +328,7 @@ html{
 
 .contact-info:hover{
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .contact-links-container{
@@ -425,11 +426,11 @@ footer{
     }
 
     .project-container{
-        transform: scale(.7);
+        transform: scale(.8);
     }
     
     .project-container:hover{
-        transform: scale(.7);
+        transform: scale(.8);
     }
 
     .main-contact-container{
