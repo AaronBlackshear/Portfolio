@@ -353,7 +353,6 @@ footer{
     padding-bottom: 20px;
 }
 
-
 @media (max-width: 950px) {
     .about{
         height: 500px;
@@ -423,6 +422,15 @@ footer{
     .about{
         height: 800px;
         line-height: 30px;
+    }
+
+    .devicon{
+        font-size: 58px;
+        padding: 13px 30%;
+    }
+
+    .skills-text{
+        font-size: 22px;
     }
 
     .project-container{
